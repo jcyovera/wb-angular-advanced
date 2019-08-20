@@ -1,0 +1,6 @@
+<div class="ui grid posts">
+    <app-article
+      *ngFor="let article of articles$ | async"
+      [article]="article">
+    </app-article>
+  </div>

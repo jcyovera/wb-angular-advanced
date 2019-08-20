@@ -1,0 +1,93 @@
+{
+  "books": [
+    {
+      "id": 101,
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "year_published": 2014,
+      "rating": 4.03,
+      "price": "11"
+    },
+    {
+      "id": 102,
+      "title": "The Origin of Species",
+      "author": "Charles Darwin",
+      "year_published": 1889,
+      "rating": 4.2,
+      "price": "18"
+    },
+    {
+      "id": 103,
+      "title": "AngularJS 2",
+      "author": " Daniel Green",
+      "year_published": 2017,
+      "rating": 5.2,
+      "price": 10,
+      "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/51TXjVsADfL._SY346_.jpg"
+    },
+    {
+      "id": 104,
+      "title": "Mi first book",
+      "author": "Juan Carlos",
+      "year_published": "1985",
+      "rating": "12",
+      "price": "15.9"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Angular 5",
+      "link": "http://angular.io",
+      "votes": "3"
+    },
+    {
+      "id": 2,
+      "title": "Fullstack",
+      "link": "http://fullstack.io",
+      "votes": "2"
+    },
+    {
+      "id": 3,
+      "title": "Stack Overflow",
+      "link": "https://stackoverflow.com",
+      "votes": "3"
+    },
+    {
+      "title": "Material UI",
+      "link": "https://material.angularjs.org",
+      "votes": 0,
+      "id": 4
+    },
+    {
+      "title": "universal angular",
+      "link": "https://universal.angular.io/",
+      "votes": 0,
+      "id": 5
+    },
+    {
+      "title": "Material UI 2",
+      "link": "https://material.angularjs.org",
+      "votes": 0,
+      "id": 6
+    },
+    {
+      "title": "Material UI",
+      "link": "https://material.angularjs.org",
+      "votes": 0,
+      "id": 7
+    },
+    {
+      "title": "microsoft.com",
+      "link": "http://www.microsoft.com",
+      "votes": 0,
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "username": "jcyovera",
+      "password": "123456"
+    }
+  ]
+}
