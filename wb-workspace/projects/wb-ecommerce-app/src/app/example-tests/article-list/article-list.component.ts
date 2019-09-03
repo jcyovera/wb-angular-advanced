@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ArticlesService } from '../shared/articles.service';
 import { Article } from '../../_models/article.model';
+import { Store } from '@ngrx/store';
 
 @Component({
   selector: 'app-article-list',
@@ -9,9 +10,10 @@ import { Article } from '../../_models/article.model';
 })
 export class ArticleListComponent implements OnInit {
   articles$ = this.articlesService.getAll();
-  constructor(private articlesService: ArticlesService) { }
+  constructor(private articlesService: ArticlesService, private store: Store<{ articles: Article[] }>) { }
 
   ngOnInit() {
+    this.store.dispatch({ type: '[Articles] Load Articles'});
 
   }
 
